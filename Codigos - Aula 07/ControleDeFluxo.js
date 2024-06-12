@@ -1,4 +1,4 @@
-const prompt from require("readline-sync")
+const prompt = require("readline-sync")
 const nome = String(prompt.question("Qual o seu nome?"))
 const idade = Number(prompt.question("Qual a sua idade?"))
 
